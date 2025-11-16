@@ -1,3 +1,11 @@
+import context.GoodsVehicle;
+import context.HybridVehicle;
+import context.SportsVehicle;
+import context.Vehicle;
+import strategy.EVDrive;
+import strategy.NormalDrive;
+import strategy.SportsDrive;
+
 public class Demo {
     public static void main(String[] args) {
         // Vehicle sportsVehicle = new SportsVehicle(new SportDriveStrategy());

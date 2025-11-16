@@ -1,5 +1,6 @@
-// Concrete Strategy - Implements the drive behavior for Electric Vehicle mode.
+package strategy;
 
+// Concrete Strategy - Implements the drive behavior for Electric Vehicle mode.
 public class EVDrive implements DriveStrategy {
     @Override
     public void drive() {
