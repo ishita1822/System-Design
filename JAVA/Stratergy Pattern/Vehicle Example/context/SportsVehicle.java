@@ -1,8 +1,8 @@
 package context;
-// Concrete Context subclass - SportsVehicle
 
 import strategy.DriveStrategy;
 
+// Concrete Context subclass - SportsVehicle
 public class SportsVehicle extends Vehicle {
 
     // constructor

@@ -1,8 +1,8 @@
 package context;
-// Context class - holds a reference to the strategy
 
 import strategy.DriveStrategy;
 
+// Context class - holds a reference to the strategy
 public class Vehicle {
     DriveStrategy driveStrategy;
 
